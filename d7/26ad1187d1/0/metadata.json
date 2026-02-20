@@ -1,0 +1,33 @@
+{
+  "cli_version": "0.4.5",
+  "checkpoint_id": "d726ad1187d1",
+  "session_id": "6cc728f9-0f0b-4d23-b6a4-5d459852e49b",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-20T02:42:05.566105Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "client/src/App.css",
+    "client/src/components/TodoList.tsx",
+    "server/todos.db-shm"
+  ],
+  "agent": "Claude Code",
+  "turn_id": "3f13939fc11b",
+  "token_usage": {
+    "input_tokens": 57,
+    "cache_creation_tokens": 23600,
+    "cache_read_tokens": 1327967,
+    "output_tokens": 7947,
+    "api_call_count": 49
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-20T02:42:05.510762Z",
+    "agent_lines": 236,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 236,
+    "agent_percentage": 100
+  },
+  "transcript_path": ".claude/projects/-Users-matsuura-src-entire-test/6cc728f9-0f0b-4d23-b6a4-5d459852e49b.jsonl"
+}
