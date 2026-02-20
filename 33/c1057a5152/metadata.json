@@ -1,0 +1,49 @@
+{
+  "cli_version": "0.4.5",
+  "checkpoint_id": "33c1057a5152",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".claude/settings.json",
+    ".gitignore",
+    "client/index.html",
+    "client/package.json",
+    "client/src/App.css",
+    "client/src/App.tsx",
+    "client/src/api.ts",
+    "client/src/components/TodoForm.tsx",
+    "client/src/components/TodoItem.tsx",
+    "client/src/components/TodoList.tsx",
+    "client/src/main.tsx",
+    "client/src/types.ts",
+    "client/tsconfig.json",
+    "client/vite.config.ts",
+    "package-lock.json",
+    "package.json",
+    "server/package.json",
+    "server/src/database.ts",
+    "server/src/index.ts",
+    "server/src/routes/todos.ts",
+    "server/todos.db-shm",
+    "server/todos.db-wal",
+    "server/tsconfig.json",
+    "tsconfig.base.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/33/c1057a5152/0/metadata.json",
+      "transcript": "/33/c1057a5152/0/full.jsonl",
+      "context": "/33/c1057a5152/0/context.md",
+      "content_hash": "/33/c1057a5152/0/content_hash.txt",
+      "prompt": "/33/c1057a5152/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 50,
+    "cache_creation_tokens": 15081,
+    "cache_read_tokens": 1139758,
+    "output_tokens": 3470,
+    "api_call_count": 44
+  }
+}
