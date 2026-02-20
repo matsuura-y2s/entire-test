@@ -10,7 +10,7 @@ interface Props {
 
 export default function TodoList({ todos, onToggle, onEdit, onDelete }: Props) {
   if (todos.length === 0) {
-    return <p style={{ textAlign: "center", color: "#999" }}>No todos yet.</p>;
+    return <p className="empty-message">No todos yet.</p>;
   }
 
   return (
